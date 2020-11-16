@@ -1,5 +1,19 @@
 .container {
   min-height: 10vh;
-  background-color: #654321;
-  color: white;
+  background-color: #36383a ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  color: #fff;
+}
+.img{
+    max-width: 30%;
+}
+.container i {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.menu_nav{
+    display: none;
 }
