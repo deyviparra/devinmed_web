@@ -8,11 +8,11 @@ const Header = () => {
         const menuNav = document.getElementById('menu-nav')
         const menuBtn = document.getElementById('menu-bars')
         menuBtn.onclick = () => {
-            if(menuNav.style.display === 'block'){
+            if(menuNav.style.display === 'flex'){
                 menuNav.style.display = 'none'
                 return
             }
-            menuNav.style.display = 'block'
+            menuNav.style.display = 'flex'
         }
         
         

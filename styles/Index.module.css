@@ -1,12 +1,20 @@
 .container {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  min-height: 80vh;
-  padding: 0 5%;
+  padding: 20px 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
+  min-height: 80vh;
+  overflow: auto;
 }
+.container h1{
+  text-align: center;
+}
+.container section{
+  margin: 30px 0;
+}
+
 

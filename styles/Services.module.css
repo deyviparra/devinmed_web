@@ -5,8 +5,14 @@
     padding: 0 5%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
+  }
+  .container h1{
+    margin: 20px;
+  }
+  .container p{
+    text-align: justify;
   }
   
