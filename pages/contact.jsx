@@ -1,5 +1,5 @@
 import React from 'react'
-import s from '../styles/contact.module.css'
+import s from '../styles/contact.module.scss'
 const contact = () => {
     return (
         <div className={s.container}>

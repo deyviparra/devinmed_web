@@ -1,9 +1,9 @@
 import React from 'react'
-import s from './Footer.module.css'
+import s from './Footer.module.scss'
 const Footer = () => {
     return (
         <footer className={s.container}>
-            <p>Desarrollador por <a href="https://devinmed.com">Dev In Med S.A.S.</a></p>
+            <p className={s.hola}>Desarrollado por <a href="https://devinmed.com">Dev In Med S.A.S.</a></p>
         </footer>
     )
 }

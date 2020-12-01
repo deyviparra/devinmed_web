@@ -1,7 +1,9 @@
+@import '../../styles/variables.scss';
+
 .container {
   min-height: 10vh;
-  background-color: #36383a;
-  color: #fff;
+  background-color: $primary-color;
+  color: $white;
   display: flex;
   align-items: center;
   justify-content: center;
